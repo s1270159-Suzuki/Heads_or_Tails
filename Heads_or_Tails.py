@@ -3,6 +3,10 @@ import random
 def main():
   k = 0
   l = 0
+
+  name = input('Who are you?')
+  print('Hello, {}'.format(name))
+
   print('Tssing a coin...')
 
   for i, a in enumerate(range(3)):
