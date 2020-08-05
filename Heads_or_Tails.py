@@ -5,7 +5,7 @@ def main():
   l = 0
 
   name = input('Who are you?')
-  print('Hello, {}'.format(name))
+  print('Hello, {}!'.format(name))
 
   print('Tssing a coin...')
 
@@ -20,9 +20,9 @@ def main():
   print('Heads: {}, Tails: {}'.format(k,l))
 
   if(k > l):
-    print('You won')
+    print('{} won!'.format(name))
   else:
-    print('You lost')
+    print('{} lost!'.format(name))
     
 
 def Heads_or_Tails():
