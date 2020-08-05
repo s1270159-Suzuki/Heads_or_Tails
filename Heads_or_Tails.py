@@ -14,6 +14,11 @@ def main():
       l = l + 1
 
   print('Heads: {}, Tails: {}'.format(k,l))
+
+  if(k > l):
+    print('You won')
+  else:
+    print('You lost')
     
 
 def Heads_or_Tails():
